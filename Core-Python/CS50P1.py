@@ -128,16 +128,6 @@ def class_report():
     class_avg = sum(scores)/len(scores)
     print(f'\nClass average: {class_avg:.2f}')
 
-    
-    
-
-
-
-
-
-
-
-
 def main():
     # name = input("Enter user's name ? ")
     # print(greeter(name))
@@ -165,22 +155,21 @@ def main():
 
     # fullname= input("Enter Your fullname: ")
     # print(getInitials(fullname))
-
     
-    while(True):
-        Question = input("What do you want to convert? c/f: ")
-        if (Question.lower()=="c"):
-            c= float(input("Enter the temp in Celsius to convert: "))
-            f = celsiusToFahrenheit(c)
-            print(f"{f:,.1f}")
-            break
-        elif(Question.lower()=="f"):
-            f= float(input("Enter the temp in Fahrenheit to convert: "))
-            c = fahrenheitToCelsius(f)
-            print(f"{c:,.1f}")
-            break
-        else:
-            print("Wrong choice choose again")
+    # while(True):
+    #     Question = input("What do you want to convert? c/f: ")
+    #     if (Question.lower()=="c"):
+    #         c= float(input("Enter the temp in Celsius to convert: "))
+    #         f = celsiusToFahrenheit(c)
+    #         print(f"{f:,.1f}")
+    #         break
+    #     elif(Question.lower()=="f"):
+    #         f= float(input("Enter the temp in Fahrenheit to convert: "))
+    #         c = fahrenheitToCelsius(f)
+    #         print(f"{c:,.1f}")
+    #         break
+    #     else:
+    #         print("Wrong choice choose again")
 
     # length = int (input("Enter length of the rectangle? "))
     # width = int (input("Enter width of the rectangle? "))
@@ -194,9 +183,6 @@ def main():
     # print(buy(item,money_given))
 
     # class_report()
-
-
-
 
 if __name__ == "__main__":
     main()
